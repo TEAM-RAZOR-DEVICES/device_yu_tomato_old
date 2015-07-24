@@ -23,7 +23,7 @@ TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/include
 TARGET_BOARD_INFO_FILE ?= device/yu/tomato/board-info.txt
 
 # Kernel
-TARGET_KERNEL_CONFIG := cyanogenmod_tomato-64_defconfig
+TARGET_KERNEL_CONFIG := slim_tomato-64_defconfig
 
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
@@ -77,7 +77,6 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 13576175616 # 13576192000 - 16384
 
 # Recovery
 TARGET_RECOVERY_PIXEL_FORMAT := ABGR_8888
-TARGET_RECOVERY_DENSITY := xhdpi
 
 # SELinux
 BOARD_SEPOLICY_DIRS += \

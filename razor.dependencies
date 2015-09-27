@@ -5,9 +5,9 @@
     "revision": "lp5.1"
   },
   {
-    "repository": "TEAM-RAZOR-DEVICES/kernel_cyanogen_msm8916",
+    "repository": "TEAM-RAZOR-DEVICES/kernel_cyanogen_tomato",
     "target_path": "kernel/cyanogen/msm8916",
-    "revision": "lp5.1-N"
+    "revision": "lp5.1"
   },
   {
     "repository": "SlimRoms/android_external_mm-dash",

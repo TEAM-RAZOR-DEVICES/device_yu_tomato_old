@@ -1,14 +1,14 @@
 # Release name
 PRODUCT_RELEASE_NAME := tomato
 
-# Inherit some common Slim stuff.
-$(call inherit-product, vendor/slim/config/common_full_phone.mk)
+# Inherit some common Razor stuff.
+$(call inherit-product, vendor/razor/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/yu/tomato/full_tomato.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := slim_tomato
+PRODUCT_NAME := razor_tomato
 BOARD_VENDOR := yu
 PRODUCT_DEVICE := tomato
 

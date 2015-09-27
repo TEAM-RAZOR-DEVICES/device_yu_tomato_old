@@ -1,0 +1,22 @@
+[
+  {
+    "repository": "TEAM-RAZOR-DEVICES/device_cyanogen_msm8939-common",
+    "target_path": "device/cyanogen/msm8939-common",
+    "revision": "lp5.1"
+  },
+  {
+    "repository": "TEAM-RAZOR-DEVICES/kernel_cyanogen_msm8916",
+    "target_path": "kernel/cyanogen/msm8916",
+    "revision": "lp5.1-N"
+  },
+  {
+    "repository": "SlimRoms/android_external_mm-dash",
+    "target_path": "external/mm-dash",
+    "revision": "lp5.1"
+  },
+  {
+    "repository": "TEAM-RAZOR-DEVICES/proprietary_vendor_yu",
+    "target_path": "vendor/yu",
+    "revision": "lp5.1"
+  }
+]
